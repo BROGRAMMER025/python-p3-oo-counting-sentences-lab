@@ -51,10 +51,10 @@ my_exclamation = MyString("It's me!")
 print(my_exclamation.is_sentence())  
 print(my_exclamation.is_question()) 
 print(my_exclamation.is_exclamation())  
-print(my_exclamation.count_sentences())  # Output: 1
+print(my_exclamation.count_sentences())  
 
-# Example with multiple sentences
+
 my_multi_sentence = MyString("Hello! How are you? I hope you're doing well.")
-print(my_multi_sentence.count_sentences())  # Output: 3
+print(my_multi_sentence.count_sentences())  
 
   
